@@ -5,6 +5,14 @@ import { Link } from "react-scroll";
 
 
 const Home = () => {
+   const  Resume =[
+    {
+        id:1,
+        href :"Basim_Resume.pdf",
+        download:true,
+        
+    }
+   ]
     return (
         <>
             <div name="Home" className='w-full h-screen bg-gradient-to-b from-black via-black to-gray-800'>
@@ -19,11 +27,23 @@ const Home = () => {
                                 Projects
                                 <span className='ml-2 group-hover:rotate-90 transition'><FaArrowRight size={15} /></span>
                             </Link>
+                            {
+                                Resume.map(({id, href, download})=>(
+                                    <a 
+                                    href={href}
+                                     key={id} 
+                                     target="_blank"
+                                     download={download}
+                                      className='group py-3 px-6 w-fit text-white items-center bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md flex i cursor-pointer'>Resume
+                                        <span className='ml-2 group-hover:rotate-90 transition'><BsFillPersonLinesFill size={15} /></span>
+                                      </a>
+                                ))
+                            }
                         </div>
 
                     </div>
 
-                    <div className='pt-12 md:pt-0'>
+                    <div  className='pt-12 md:pt-0'>
                         <img src={Basim} alt="my profile" className='rounded-2xl w-2/3 sm:w-2/3 md:w-2/3 mx-auto' />
                     </div>
                 </div>
