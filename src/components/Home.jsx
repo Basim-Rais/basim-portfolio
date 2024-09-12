@@ -24,7 +24,7 @@ const Home = () => {
 
                         <div >
 
-                            <Link to="Projects" smooth duration={300} className='group py-3 px-6 w-fit text-white items-center bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md flex i cursor-pointer' >
+                            <Link to="Projects" smooth duration={300} className='group py-3 px-6 w-fit text-white items-center bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md flex cursor-pointer' >
                                 Projects
                                 <span className='ml-2 group-hover:rotate-90 transition'><FaArrowRight size={15} /></span>
                             </Link>
@@ -35,7 +35,8 @@ const Home = () => {
                                      key={id} 
                                      target="_blank"
                                      download={download}
-                                      className='group py-3 px-6 w-fit text-white items-center bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md flex i cursor-pointer'>Resume
+                                     rel="noreferrer" 
+                                      className='group py-3 px-6 w-fit text-white items-center bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md flex cursor-pointer'>Resume
                                         <span className='ml-2 group-hover:rotate-90 transition'><BsFillPersonLinesFill size={15} /></span>
                                       </a>
                                 ))
