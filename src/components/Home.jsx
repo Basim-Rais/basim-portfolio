@@ -36,7 +36,7 @@ const Home = () => {
                                      target="_blank"
                                      download={download}
                                      rel="noreferrer" 
-                                      className='group py-3 px-6 w-fit text-white items-center bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md flex cursor-pointer'>Resume
+                                      className='group py-3 px-6 w-fit text-white items-center bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md flex cursor-pointer ml-4'>Resume
                                         <span className='ml-2 group-hover:rotate-90 transition'><BsFillPersonLinesFill size={15} /></span>
                                       </a>
                                 ))
