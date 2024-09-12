@@ -1,6 +1,7 @@
 import React from 'react'
 import Basim from "../assets/Basim.png"
 import { FaArrowRight } from "react-icons/fa6";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 
 
