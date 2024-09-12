@@ -22,7 +22,7 @@ const Home = () => {
                         <h2 className='text-4xl sm:text-7xl font-bold text-white bold'>I'm a Frontend Developer</h2>
                         <p className='py-4 max-w-md text-gray-500 '>I love to work on web application using technologies like React, Tailwind, HTML, CSS and Javascript</p>
 
-                        <div >
+                        <div className='flex' >
 
                             <Link to="Projects" smooth duration={300} className='group py-3 px-6 w-fit text-white items-center bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md flex cursor-pointer' >
                                 Projects
