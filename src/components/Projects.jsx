@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
 import amazonClone from "../assets/Projects/amazonClone.png";
-import eCommerce from "../assets/Projects/eCommerce.png"
-import musicWebsite from "../assets/Projects/musicWebsite.png"
-import tictactoeGame from "../assets/Projects/tictactoeGame.png"
-import universitywebsite from "../assets/Projects/universitywebsite.png"
+import eCommerce from "../assets/Projects/eCommerce.png";
+import musicWebsite from "../assets/Projects/musicWebsite.png";
+import tictactoeGame from "../assets/Projects/tictactoeGame.png";
+import universitywebsite from "../assets/Projects/universitywebsite.png";
+import docsApp from "../assets/Projects/docs.app.png";
 
 const Projects = () => {
 
@@ -43,7 +44,16 @@ const Projects = () => {
       demo:"https://university-website-by-basim.netlify.app/",
       code:"https://github.com/Basim-Rais/University-Website"
       
+    },
+    {
+      id: 6,
+      src: docsApp,
+      name:"Docs App",
+      demo:"https://docs-app-b.netlify.app/",
+      code:"https://github.com/Basim-Rais/Docs-App"
+      
     }
+
   ]
 
 
