@@ -1,5 +1,3 @@
-https://basim-b-portfolio.netlify.app/
-
 ## 🚀 Live Demo
 
 Check out the live app here:
